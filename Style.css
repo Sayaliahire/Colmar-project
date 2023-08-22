@@ -1,0 +1,41 @@
+
+    .sl-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sl-mobile > * {
+        background-color: var(--lightest-grey);
+        color: var(--dark-grey);
+        height: 5rem;
+        margin: 1%;
+        text-decoration: none;
+    }
+
+    .sl-mobile h1 {
+        padding: 5%;
+    }
+
+    /* Thesis exhibit section */
+    .urban-info, .other-thesis-container {
+        display: none;
+    }
+
+    .thesis-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Footer section */
+    footer {
+        padding: 10% 0 2%;
+    }
+
+    footer ul {
+        display: none;
+    }
+
+    footer p {
+        font-size: 100%;
+    }
+    
+}
